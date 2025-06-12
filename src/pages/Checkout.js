@@ -63,16 +63,16 @@ export default function Checkout() {
             </li>
           </ul>
 
-          <form onSubmit={handleSubmit} noValidate>
+          <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
                 Nombre
               </label>
               <input
-                type="text"
-                className={`form-control ${errors.name ? "is-invalid" : ""}`}
                 id="name"
                 name="name"
+                type="text"
+                className={`form-control ${errors.name ? "is-invalid" : ""}`}
                 value={formData.name}
                 onChange={handleChange}
               />
@@ -86,10 +86,10 @@ export default function Checkout() {
                 Dirección
               </label>
               <input
-                type="text"
-                className={`form-control ${errors.address ? "is-invalid" : ""}`}
                 id="address"
                 name="address"
+                type="text"
+                className={`form-control ${errors.address ? "is-invalid" : ""}`}
                 value={formData.address}
                 onChange={handleChange}
               />
@@ -98,8 +98,8 @@ export default function Checkout() {
               )}
             </div>
 
-            <button type="submit" className="btn btn-primary">
-              Finalizar Compra
+            <button type="submit" className="btn btn-success">
+              Finalizar compra
             </button>
           </form>
         </>

@@ -1,22 +1,28 @@
 // src/api/products.js
-export const products = [
+const products = [
   {
     id: 1,
-    name: "Producto 1",
-    price: 19.99,
-    image: "https://via.placeholder.com/150",
+    name: "Cámara DSLR Canon",
+    price: 499.99,
+    quantity: 2,
+    image:
+      "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 2,
-    name: "Producto 2",
-    price: 29.99,
-    image: "https://via.placeholder.com/150",
+    name: "Auriculares Bluetooth",
+    price: 79.99,
+    quantity: 1,
+    image:
+      "https://images.pexels.com/photos/1037999/pexels-photo-1037999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 3,
-    name: "Producto 3",
-    price: 9.99,
-    image: "https://via.placeholder.com/150",
+    name: "Smartwatch Deportivo",
+    price: 199.99,
+    quantity: 3,
+    image:
+      "https://images.pexels.com/photos/2861929/pexels-photo-2861929.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
 ];
 
